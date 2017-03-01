@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="marikinaDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="announcements">
+    <Key>
+      <PropertyRef Name="announcement_id" />
+    </Key>
+    <Property Name="announcement_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="announcement_title" Type="varchar(max)" />
+    <Property Name="announcement_desc" Type="varchar(max)" />
+    <Property Name="announcement_image_name" Type="varchar(max)" />
+    <Property Name="announcement_image" Type="varbinary(max)" />
+    <Property Name="announcement_image_size" Type="int" />
+    <Property Name="announcement_expiration_datetime" Type="datetime2" Precision="7" />
+  </EntityType>
+  <EntityType Name="banner">
+    <Key>
+      <PropertyRef Name="banner_id" />
+    </Key>
+    <Property Name="banner_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="banner_image_name" Type="varchar(max)" />
+    <Property Name="banner_image" Type="varbinary(max)" />
+    <Property Name="banner_image_size" Type="int" />
+  </EntityType>
+  <EntityType Name="events">
+    <Key>
+      <PropertyRef Name="event_id" />
+    </Key>
+    <Property Name="event_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="event_name" Type="varchar(max)" />
+    <Property Name="event_desc" Type="varchar(max)" />
+    <Property Name="event_expiration_datetime" Type="datetime2" Precision="7" />
+    <Property Name="event_image_name" Type="varchar(max)" />
+    <Property Name="event_image" Type="varbinary(max)" />
+    <Property Name="event_image_size" Type="int" />
+    <Property Name="event_status" Type="varchar(max)" />
+    <Property Name="event_location" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="header">
+    <Key>
+      <PropertyRef Name="header_id" />
+    </Key>
+    <Property Name="header_id" Type="int" Nullable="false" />
+    <Property Name="history" Type="varchar(max)" />
+    <Property Name="vision" Type="varchar(max)" />
+    <Property Name="mission" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="logo">
+    <Key>
+      <PropertyRef Name="logo_id" />
+    </Key>
+    <Property Name="logo_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="logo_image_name" Type="varchar(max)" />
+    <Property Name="logo_image" Type="varbinary(max)" />
+    <Property Name="logo_image_size" Type="int" />
+  </EntityType>
+  <EntityType Name="officials">
+    <Key>
+      <PropertyRef Name="official_id" />
+    </Key>
+    <Property Name="official_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="official_name" Type="varchar(max)" />
+    <Property Name="official_image_name" Type="varchar(max)" />
+    <Property Name="official_image" Type="varbinary(max)" />
+    <Property Name="official_image_size" Type="int" />
+    <Property Name="official_desc" Type="varchar(max)" />
+    <Property Name="official_role" Type="varchar(max)" />
+    <Property Name="official_barangay" Type="varchar(max)" />
+    <Property Name="official_contact" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="roles">
+    <Key>
+      <PropertyRef Name="role_id" />
+    </Key>
+    <Property Name="role_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="role_name" Type="varchar(max)" />
+  </EntityType>
+  <EntityContainer Name="marikinaDBModelStoreContainer">
+    <EntitySet Name="announcements" EntityType="Self.announcements" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="banner" EntityType="Self.banner" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="events" EntityType="Self.events" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="header" EntityType="Self.header" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="logo" EntityType="Self.logo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="officials" EntityType="Self.officials" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="roles" EntityType="Self.roles" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

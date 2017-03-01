@@ -1,0 +1,93 @@
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina\Marikina\bin\Marikina.dll.config
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina\Marikina\bin\Marikina.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina\Marikina\bin\Marikina.pdb
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina\Marikina\bin\Antlr3.Runtime.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina\Marikina\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina\Marikina\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina\Marikina\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina\Marikina\bin\DotNetOpenAuth.Core.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina\Marikina\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina\Marikina\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina\Marikina\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina\Marikina\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina\Marikina\bin\EntityFramework.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina\Marikina\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina\Marikina\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina\Marikina\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina\Marikina\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina\Marikina\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina\Marikina\bin\System.Web.Optimization.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina\Marikina\bin\System.Web.Providers.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina\Marikina\bin\WebGrease.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina\Marikina\bin\EntityFramework.xml
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina\Marikina\bin\DotNetOpenAuth.Core.xml
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina\Marikina\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina\Marikina\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina\Marikina\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina\Marikina\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina\Marikina\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina\Marikina\obj\Debug\Marikina.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina\Marikina\obj\Debug\Marikina.pdb
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina\Marikina\obj\Debug\Marikina.csprojResolveAssemblyReference.cache
+C:\Users\Adille\Documents\Visual Studio 2015\Projects\ANTONIO ADILLE\Marikina\bin\Marikina.dll.config
+C:\Users\Adille\Documents\Visual Studio 2015\Projects\ANTONIO ADILLE\Marikina\bin\Marikina.dll
+C:\Users\Adille\Documents\Visual Studio 2015\Projects\ANTONIO ADILLE\Marikina\bin\Marikina.pdb
+C:\Users\Adille\Documents\Visual Studio 2015\Projects\ANTONIO ADILLE\Marikina\bin\Antlr3.Runtime.dll
+C:\Users\Adille\Documents\Visual Studio 2015\Projects\ANTONIO ADILLE\Marikina\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Adille\Documents\Visual Studio 2015\Projects\ANTONIO ADILLE\Marikina\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Adille\Documents\Visual Studio 2015\Projects\ANTONIO ADILLE\Marikina\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Adille\Documents\Visual Studio 2015\Projects\ANTONIO ADILLE\Marikina\bin\DotNetOpenAuth.Core.dll
+C:\Users\Adille\Documents\Visual Studio 2015\Projects\ANTONIO ADILLE\Marikina\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Adille\Documents\Visual Studio 2015\Projects\ANTONIO ADILLE\Marikina\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Adille\Documents\Visual Studio 2015\Projects\ANTONIO ADILLE\Marikina\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Adille\Documents\Visual Studio 2015\Projects\ANTONIO ADILLE\Marikina\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Adille\Documents\Visual Studio 2015\Projects\ANTONIO ADILLE\Marikina\bin\EntityFramework.dll
+C:\Users\Adille\Documents\Visual Studio 2015\Projects\ANTONIO ADILLE\Marikina\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Adille\Documents\Visual Studio 2015\Projects\ANTONIO ADILLE\Marikina\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Adille\Documents\Visual Studio 2015\Projects\ANTONIO ADILLE\Marikina\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Adille\Documents\Visual Studio 2015\Projects\ANTONIO ADILLE\Marikina\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Adille\Documents\Visual Studio 2015\Projects\ANTONIO ADILLE\Marikina\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Adille\Documents\Visual Studio 2015\Projects\ANTONIO ADILLE\Marikina\bin\System.Web.Optimization.dll
+C:\Users\Adille\Documents\Visual Studio 2015\Projects\ANTONIO ADILLE\Marikina\bin\System.Web.Providers.dll
+C:\Users\Adille\Documents\Visual Studio 2015\Projects\ANTONIO ADILLE\Marikina\bin\WebGrease.dll
+C:\Users\Adille\Documents\Visual Studio 2015\Projects\ANTONIO ADILLE\Marikina\bin\EntityFramework.xml
+C:\Users\Adille\Documents\Visual Studio 2015\Projects\ANTONIO ADILLE\Marikina\bin\DotNetOpenAuth.Core.xml
+C:\Users\Adille\Documents\Visual Studio 2015\Projects\ANTONIO ADILLE\Marikina\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Adille\Documents\Visual Studio 2015\Projects\ANTONIO ADILLE\Marikina\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Adille\Documents\Visual Studio 2015\Projects\ANTONIO ADILLE\Marikina\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Adille\Documents\Visual Studio 2015\Projects\ANTONIO ADILLE\Marikina\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Adille\Documents\Visual Studio 2015\Projects\ANTONIO ADILLE\Marikina\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Adille\Documents\Visual Studio 2015\Projects\ANTONIO ADILLE\Marikina\obj\Debug\Marikina.dll
+C:\Users\Adille\Documents\Visual Studio 2015\Projects\ANTONIO ADILLE\Marikina\obj\Debug\Marikina.pdb
+C:\Users\Adille\Documents\Visual Studio 2015\Projects\ANTONIO ADILLE\Marikina\obj\Debug\Marikina.csprojResolveAssemblyReference.cache
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina FINAL\Marikina\bin\Marikina.dll.config
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina FINAL\Marikina\bin\Marikina.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina FINAL\Marikina\bin\Marikina.pdb
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina FINAL\Marikina\bin\Antlr3.Runtime.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina FINAL\Marikina\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina FINAL\Marikina\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina FINAL\Marikina\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina FINAL\Marikina\bin\DotNetOpenAuth.Core.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina FINAL\Marikina\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina FINAL\Marikina\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina FINAL\Marikina\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina FINAL\Marikina\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina FINAL\Marikina\bin\EntityFramework.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina FINAL\Marikina\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina FINAL\Marikina\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina FINAL\Marikina\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina FINAL\Marikina\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina FINAL\Marikina\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina FINAL\Marikina\bin\System.Web.Optimization.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina FINAL\Marikina\bin\System.Web.Providers.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina FINAL\Marikina\bin\WebGrease.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina FINAL\Marikina\bin\EntityFramework.xml
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina FINAL\Marikina\bin\DotNetOpenAuth.Core.xml
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina FINAL\Marikina\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina FINAL\Marikina\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina FINAL\Marikina\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina FINAL\Marikina\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina FINAL\Marikina\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina FINAL\Marikina\obj\Debug\Marikina.csprojResolveAssemblyReference.cache
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina FINAL\Marikina\obj\Debug\Marikina.dll
+C:\Users\forprogrammingonly\Documents\Visual Studio 2015\Projects\Marikina FINAL\Marikina\obj\Debug\Marikina.pdb

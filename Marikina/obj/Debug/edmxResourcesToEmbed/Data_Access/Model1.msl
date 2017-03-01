@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="marikinaDBModelStoreContainer" CdmEntityContainer="marikinaDBEntities">
+    <EntitySetMapping Name="announcements">
+      <EntityTypeMapping TypeName="marikinaDBModel.announcement">
+        <MappingFragment StoreEntitySet="announcements">
+          <ScalarProperty Name="announcement_id" ColumnName="announcement_id" />
+          <ScalarProperty Name="announcement_title" ColumnName="announcement_title" />
+          <ScalarProperty Name="announcement_desc" ColumnName="announcement_desc" />
+          <ScalarProperty Name="announcement_image_name" ColumnName="announcement_image_name" />
+          <ScalarProperty Name="announcement_image" ColumnName="announcement_image" />
+          <ScalarProperty Name="announcement_image_size" ColumnName="announcement_image_size" />
+          <ScalarProperty Name="announcement_expiration_datetime" ColumnName="announcement_expiration_datetime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="banners">
+      <EntityTypeMapping TypeName="marikinaDBModel.banner">
+        <MappingFragment StoreEntitySet="banner">
+          <ScalarProperty Name="banner_id" ColumnName="banner_id" />
+          <ScalarProperty Name="banner_image_name" ColumnName="banner_image_name" />
+          <ScalarProperty Name="banner_image" ColumnName="banner_image" />
+          <ScalarProperty Name="banner_image_size" ColumnName="banner_image_size" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="events">
+      <EntityTypeMapping TypeName="marikinaDBModel.event">
+        <MappingFragment StoreEntitySet="events">
+          <ScalarProperty Name="event_id" ColumnName="event_id" />
+          <ScalarProperty Name="event_name" ColumnName="event_name" />
+          <ScalarProperty Name="event_desc" ColumnName="event_desc" />
+          <ScalarProperty Name="event_expiration_datetime" ColumnName="event_expiration_datetime" />
+          <ScalarProperty Name="event_image_name" ColumnName="event_image_name" />
+          <ScalarProperty Name="event_image" ColumnName="event_image" />
+          <ScalarProperty Name="event_image_size" ColumnName="event_image_size" />
+          <ScalarProperty Name="event_status" ColumnName="event_status" />
+          <ScalarProperty Name="event_location" ColumnName="event_location" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="headers">
+      <EntityTypeMapping TypeName="marikinaDBModel.header">
+        <MappingFragment StoreEntitySet="header">
+          <ScalarProperty Name="header_id" ColumnName="header_id" />
+          <ScalarProperty Name="history" ColumnName="history" />
+          <ScalarProperty Name="vision" ColumnName="vision" />
+          <ScalarProperty Name="mission" ColumnName="mission" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="logoes">
+      <EntityTypeMapping TypeName="marikinaDBModel.logo">
+        <MappingFragment StoreEntitySet="logo">
+          <ScalarProperty Name="logo_id" ColumnName="logo_id" />
+          <ScalarProperty Name="logo_image_name" ColumnName="logo_image_name" />
+          <ScalarProperty Name="logo_image" ColumnName="logo_image" />
+          <ScalarProperty Name="logo_image_size" ColumnName="logo_image_size" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="officials">
+      <EntityTypeMapping TypeName="marikinaDBModel.official">
+        <MappingFragment StoreEntitySet="officials">
+          <ScalarProperty Name="official_contact" ColumnName="official_contact" />
+          <ScalarProperty Name="official_barangay" ColumnName="official_barangay" />
+          <ScalarProperty Name="official_id" ColumnName="official_id" />
+          <ScalarProperty Name="official_name" ColumnName="official_name" />
+          <ScalarProperty Name="official_image_name" ColumnName="official_image_name" />
+          <ScalarProperty Name="official_image" ColumnName="official_image" />
+          <ScalarProperty Name="official_image_size" ColumnName="official_image_size" />
+          <ScalarProperty Name="official_desc" ColumnName="official_desc" />
+          <ScalarProperty Name="official_role" ColumnName="official_role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="roles">
+      <EntityTypeMapping TypeName="marikinaDBModel.role">
+        <MappingFragment StoreEntitySet="roles">
+          <ScalarProperty Name="role_name" ColumnName="role_name" />
+          <ScalarProperty Name="role_id" ColumnName="role_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

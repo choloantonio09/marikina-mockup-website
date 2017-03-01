@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="marikinaDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="announcements">
+          <Key>
+            <PropertyRef Name="announcement_id" />
+          </Key>
+          <Property Name="announcement_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="announcement_title" Type="varchar(max)" />
+          <Property Name="announcement_desc" Type="varchar(max)" />
+          <Property Name="announcement_image_name" Type="varchar(max)" />
+          <Property Name="announcement_image" Type="varbinary(max)" />
+          <Property Name="announcement_image_size" Type="int" />
+          <Property Name="announcement_expiration_datetime" Type="datetime2" Precision="7" />
+        </EntityType>
+        <EntityType Name="banner">
+          <Key>
+            <PropertyRef Name="banner_id" />
+          </Key>
+          <Property Name="banner_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="banner_image_name" Type="varchar(max)" />
+          <Property Name="banner_image" Type="varbinary(max)" />
+          <Property Name="banner_image_size" Type="int" />
+        </EntityType>
+        <EntityType Name="events">
+          <Key>
+            <PropertyRef Name="event_id" />
+          </Key>
+          <Property Name="event_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="event_name" Type="varchar(max)" />
+          <Property Name="event_desc" Type="varchar(max)" />
+          <Property Name="event_expiration_datetime" Type="datetime2" Precision="7" />
+          <Property Name="event_image_name" Type="varchar(max)" />
+          <Property Name="event_image" Type="varbinary(max)" />
+          <Property Name="event_image_size" Type="int" />
+          <Property Name="event_status" Type="varchar(max)" />
+          <Property Name="event_location" Type="varchar(max)" />
+        </EntityType>
+        <EntityType Name="header">
+          <Key>
+            <PropertyRef Name="header_id" />
+          </Key>
+          <Property Name="header_id" Type="int" Nullable="false" />
+          <Property Name="history" Type="varchar(max)" />
+          <Property Name="vision" Type="varchar(max)" />
+          <Property Name="mission" Type="varchar(max)" />
+        </EntityType>
+        <EntityType Name="logo">
+          <Key>
+            <PropertyRef Name="logo_id" />
+          </Key>
+          <Property Name="logo_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="logo_image_name" Type="varchar(max)" />
+          <Property Name="logo_image" Type="varbinary(max)" />
+          <Property Name="logo_image_size" Type="int" />
+        </EntityType>
+        <EntityType Name="officials">
+          <Key>
+            <PropertyRef Name="official_id" />
+          </Key>
+          <Property Name="official_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="official_name" Type="varchar(max)" />
+          <Property Name="official_image_name" Type="varchar(max)" />
+          <Property Name="official_image" Type="varbinary(max)" />
+          <Property Name="official_image_size" Type="int" />
+          <Property Name="official_desc" Type="varchar(max)" />
+          <Property Name="official_role" Type="varchar(max)" />
+          <Property Name="official_barangay" Type="varchar(max)" />
+          <Property Name="official_contact" Type="varchar(max)" />
+        </EntityType>
+        <EntityType Name="roles">
+          <Key>
+            <PropertyRef Name="role_id" />
+          </Key>
+          <Property Name="role_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="role_name" Type="varchar(max)" />
+        </EntityType>
+        <EntityContainer Name="marikinaDBModelStoreContainer">
+          <EntitySet Name="announcements" EntityType="Self.announcements" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="banner" EntityType="Self.banner" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="events" EntityType="Self.events" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="header" EntityType="Self.header" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="logo" EntityType="Self.logo" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="officials" EntityType="Self.officials" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="roles" EntityType="Self.roles" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="marikinaDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="announcement">
+          <Key>
+            <PropertyRef Name="announcement_id" />
+          </Key>
+          <Property Name="announcement_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="announcement_title" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="announcement_desc" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="announcement_image_name" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="announcement_image" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="announcement_image_size" Type="Int32" />
+          <Property Name="announcement_expiration_datetime" Type="DateTime" Precision="7" />
+        </EntityType>
+        <EntityType Name="banner">
+          <Key>
+            <PropertyRef Name="banner_id" />
+          </Key>
+          <Property Name="banner_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="banner_image_name" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="banner_image" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="banner_image_size" Type="Int32" />
+        </EntityType>
+        <EntityType Name="event">
+          <Key>
+            <PropertyRef Name="event_id" />
+          </Key>
+          <Property Name="event_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="event_name" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="event_desc" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="event_expiration_datetime" Type="DateTime" Precision="7" />
+          <Property Name="event_image_name" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="event_image" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="event_image_size" Type="Int32" />
+          <Property Name="event_status" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="event_location" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="header">
+          <Key>
+            <PropertyRef Name="header_id" />
+          </Key>
+          <Property Name="header_id" Type="Int32" Nullable="false" />
+          <Property Name="history" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="vision" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="mission" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="logo">
+          <Key>
+            <PropertyRef Name="logo_id" />
+          </Key>
+          <Property Name="logo_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="logo_image_name" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="logo_image" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="logo_image_size" Type="Int32" />
+        </EntityType>
+        <EntityType Name="official">
+          <Key>
+            <PropertyRef Name="official_id" />
+          </Key>
+          <Property Name="official_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="official_name" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="official_image_name" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="official_image" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="official_image_size" Type="Int32" />
+          <Property Name="official_desc" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="official_role" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="official_barangay" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="official_contact" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="marikinaDBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="announcements" EntityType="Self.announcement" />
+          <EntitySet Name="banners" EntityType="Self.banner" />
+          <EntitySet Name="events" EntityType="Self.event" />
+          <EntitySet Name="headers" EntityType="Self.header" />
+          <EntitySet Name="logoes" EntityType="Self.logo" />
+          <EntitySet Name="officials" EntityType="Self.official" />
+          <EntitySet Name="roles" EntityType="marikinaDBModel.role" />
+        </EntityContainer>
+        <EntityType Name="role">
+          <Key>
+            <PropertyRef Name="role_id" />
+          </Key>
+          <Property Name="role_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="role_name" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="marikinaDBModelStoreContainer" CdmEntityContainer="marikinaDBEntities">
+          <EntitySetMapping Name="announcements">
+            <EntityTypeMapping TypeName="marikinaDBModel.announcement">
+              <MappingFragment StoreEntitySet="announcements">
+                <ScalarProperty Name="announcement_id" ColumnName="announcement_id" />
+                <ScalarProperty Name="announcement_title" ColumnName="announcement_title" />
+                <ScalarProperty Name="announcement_desc" ColumnName="announcement_desc" />
+                <ScalarProperty Name="announcement_image_name" ColumnName="announcement_image_name" />
+                <ScalarProperty Name="announcement_image" ColumnName="announcement_image" />
+                <ScalarProperty Name="announcement_image_size" ColumnName="announcement_image_size" />
+                <ScalarProperty Name="announcement_expiration_datetime" ColumnName="announcement_expiration_datetime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="banners">
+            <EntityTypeMapping TypeName="marikinaDBModel.banner">
+              <MappingFragment StoreEntitySet="banner">
+                <ScalarProperty Name="banner_id" ColumnName="banner_id" />
+                <ScalarProperty Name="banner_image_name" ColumnName="banner_image_name" />
+                <ScalarProperty Name="banner_image" ColumnName="banner_image" />
+                <ScalarProperty Name="banner_image_size" ColumnName="banner_image_size" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="events">
+            <EntityTypeMapping TypeName="marikinaDBModel.event">
+              <MappingFragment StoreEntitySet="events">
+                <ScalarProperty Name="event_id" ColumnName="event_id" />
+                <ScalarProperty Name="event_name" ColumnName="event_name" />
+                <ScalarProperty Name="event_desc" ColumnName="event_desc" />
+                <ScalarProperty Name="event_expiration_datetime" ColumnName="event_expiration_datetime" />
+                <ScalarProperty Name="event_image_name" ColumnName="event_image_name" />
+                <ScalarProperty Name="event_image" ColumnName="event_image" />
+                <ScalarProperty Name="event_image_size" ColumnName="event_image_size" />
+                <ScalarProperty Name="event_status" ColumnName="event_status" />
+                <ScalarProperty Name="event_location" ColumnName="event_location" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="headers">
+            <EntityTypeMapping TypeName="marikinaDBModel.header">
+              <MappingFragment StoreEntitySet="header">
+                <ScalarProperty Name="header_id" ColumnName="header_id" />
+                <ScalarProperty Name="history" ColumnName="history" />
+                <ScalarProperty Name="vision" ColumnName="vision" />
+                <ScalarProperty Name="mission" ColumnName="mission" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="logoes">
+            <EntityTypeMapping TypeName="marikinaDBModel.logo">
+              <MappingFragment StoreEntitySet="logo">
+                <ScalarProperty Name="logo_id" ColumnName="logo_id" />
+                <ScalarProperty Name="logo_image_name" ColumnName="logo_image_name" />
+                <ScalarProperty Name="logo_image" ColumnName="logo_image" />
+                <ScalarProperty Name="logo_image_size" ColumnName="logo_image_size" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="officials">
+            <EntityTypeMapping TypeName="marikinaDBModel.official">
+              <MappingFragment StoreEntitySet="officials">
+                <ScalarProperty Name="official_contact" ColumnName="official_contact" />
+                <ScalarProperty Name="official_barangay" ColumnName="official_barangay" />
+                <ScalarProperty Name="official_id" ColumnName="official_id" />
+                <ScalarProperty Name="official_name" ColumnName="official_name" />
+                <ScalarProperty Name="official_image_name" ColumnName="official_image_name" />
+                <ScalarProperty Name="official_image" ColumnName="official_image" />
+                <ScalarProperty Name="official_image_size" ColumnName="official_image_size" />
+                <ScalarProperty Name="official_desc" ColumnName="official_desc" />
+                <ScalarProperty Name="official_role" ColumnName="official_role" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="roles">
+            <EntityTypeMapping TypeName="marikinaDBModel.role">
+              <MappingFragment StoreEntitySet="roles">
+                <ScalarProperty Name="role_name" ColumnName="role_name" />
+                <ScalarProperty Name="role_id" ColumnName="role_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

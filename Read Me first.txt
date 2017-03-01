@@ -1,0 +1,24 @@
+Maintenance
+-Logo
+-Banner
+-History
+-Vision and Mission
+-Marikina Public Officials (Mayor, Vice Mayor, Councilors, Barangay Captains)
+-Events (Create events only)
+-No Announcements :(
+
+
+How to access the Maintenance page?
+Enter the following:
+Admin Account Credentials
+UN: Admin
+PW: cholomary
+
+After logging in, the link to the Maintenance page will be accessible
+displayed as "Manage".
+
+Images are provided in the folder
+Marikina/assets/img, you can use them for testing purposes.
+
+
+
